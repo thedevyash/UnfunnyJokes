@@ -1,10 +1,13 @@
 {
-    "name":"Unfunny Jokes",
-    "version":"0.1",
-    "manifest_version":3,
-    "action":{
-        "default_popup":"popup.html",
-        "defult_icon":"icon.png"
+    "name" : "Unfunny Jokes",
+    "version" : "0.0.1",
+    "manifest_version" : 3,
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+          "128": "icon.png"
+        }
     },
-    "permissions":["activeTab"]
+    "permissions" : ["activeTab"]
 }
+
